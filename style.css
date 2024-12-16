@@ -1,0 +1,157 @@
+body {
+    background-image: url(images/backgrounds/movback.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 10%;
+}
+
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+
+textarea {
+    width: 171px;
+    display: inline-block;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(47, 20, 126, 1);
+    z-index: 10;
+    font-family: Jura;
+}
+
+.navbar ul {
+    list-style: none;
+    background: rgba(220, 136, 211, 0.48);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    padding: 10px 35px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial;
+    color: #ffffff;
+
+}
+
+.navbar a:hover {
+    background: rgba(189, 81, 207, 0.54);
+}
+
+.Réseaux h2 {
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgba(189, 81, 207, 0.54);
+}
+
+
+img {
+    width: 40%
+}
+
+video {
+    width: 80%;
+}
+
+h4 {
+    color: #f0f0f0;
+}
+
+.linkos {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.Réseaux {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.linkos {
+    color: white;
+    flex: 1;
+    text-align: center;
+}
+
+.whitos {
+    color: #f0f0f0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.gal {
+    background-color: rgba(100, 91, 163, 1);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.woka, .aba, .resome, .carnet {
+    background-color: rgba(100, 91, 163, 1);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+
+}
+
+h2{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    font-size: 160%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+
+label{
+    font-size: 115%;
+    color: rgb(255, 255, 255)
+}
